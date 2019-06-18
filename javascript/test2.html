@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+    li{
+      color: blue;
+    }
+    ul li{
+      font-size: 40px;
+    }
+    .em{
+      text-decoration:underline;
+    }
+
+    .emm{
+      text-decoration:underline;
+      font-size: 20px;
+    }
+
+    </style>
+
+
+    <title></title>
+  </head>
+  <body>
+    <h1>그룹해서 style 주기</h1>
+    <ul>
+      <li class = "em">html</li>
+      <li>css</li>
+      <li>javascript</li>
+    </ul>
+    <ol id="target">
+      <li>aaaa</li>
+      <li class="em">bbbb</li>
+      <li>cccc</li>
+      <li>dddd</li>
+    </ol>
+    <input type="button" value="강조"onclick="document.getElementById('target').className='emm'" />
+
+  </body>
+</html>
